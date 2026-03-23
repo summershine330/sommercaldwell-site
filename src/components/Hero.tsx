@@ -4,21 +4,21 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="bg-cream px-[80px] pt-[110px] pb-[90px] grid grid-cols-[1.1fr_0.9fr] gap-[80px] items-center min-h-[92vh]"
+      className="bg-cream px-5 pt-[72px] pb-[60px] md:px-[80px] md:pt-[110px] md:pb-[90px] grid grid-cols-1 md:grid-cols-[1.1fr_0.9fr] gap-[80px] items-center md:min-h-[92vh]"
     >
       {/* Left: content */}
       <div>
-        <p className="font-sans font-medium text-[1rem] tracking-[0.3em] uppercase text-gold mb-[28px]">
+        <p className="font-sans font-medium text-[0.65rem] md:text-[1rem] tracking-[0.3em] uppercase text-gold mb-[28px]">
           Educator · Leader · Entrepreneur
         </p>
 
-        <h1 className="font-cormorant font-semibold text-[clamp(2.2rem,3.4vw,3.6rem)] leading-[1.12] text-navy mb-[32px] tracking-[-0.01em]">
+        <h1 className="font-cormorant font-semibold text-[clamp(1.8rem,6vw,3.6rem)] leading-[1.12] text-navy mb-[32px] tracking-[-0.01em]">
           At the intersection of{" "}
           <em className="italic text-gold">Education, Technology,</em>{" "}
           <em className="italic text-gold">Empowerment</em> and the Funding That Makes It Possible.
         </h1>
 
-        <p className="text-[1.2rem] leading-[1.75] text-muted mb-[48px] max-w-[480px] font-light">
+        <p className="text-[1rem] md:text-[1.2rem] leading-[1.75] text-muted mb-[48px] max-w-[480px] font-light">
           22+ years helping organizations step into their purpose and power —
           from the classroom to the boardroom.
         </p>
@@ -40,8 +40,8 @@ export default function Hero() {
       </div>
 
       {/* Right: photo */}
-      <div className="flex justify-end items-center">
-        <div className="relative w-[400px] h-[520px]">
+      <div className="w-full flex justify-end items-center">
+        <div className="relative w-full md:w-[400px] h-[380px] md:h-[520px]">
           <Image
             src="/headshot1.jpg"
             alt="Sommer Caldwell Carruthers"

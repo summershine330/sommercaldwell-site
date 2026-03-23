@@ -44,7 +44,7 @@ export default function BookSommer() {
   return (
     <section
       id="book"
-      className="bg-deep-navy px-[80px] py-[130px] grid grid-cols-2 gap-[90px] items-start"
+      className="bg-deep-navy px-5 py-[72px] md:px-[80px] md:py-[130px] grid grid-cols-1 md:grid-cols-2 gap-[90px] items-start"
     >
       {/* Left column */}
       <div>
@@ -52,7 +52,7 @@ export default function BookSommer() {
         <span className="font-sans font-medium text-[0.68rem] tracking-[0.24em] uppercase text-gold-light mb-[20px] block">
           Book Sommer
         </span>
-        <h2 className="font-cormorant font-semibold text-[clamp(2rem,3vw,2.9rem)] text-white leading-[1.18] mb-[24px]">
+        <h2 className="font-cormorant font-semibold text-[clamp(1.7rem,4vw,2.9rem)] text-white leading-[1.18] mb-[24px]">
           Bring the Voice Your Organization Has Been Waiting For.
         </h2>
         <p className="text-[1.2rem] leading-[1.85] text-[rgba(255,255,255,0.55)] mb-[44px] font-light">
@@ -76,7 +76,7 @@ export default function BookSommer() {
       {/* Right column: form */}
       <form onSubmit={handleSubmit} className="flex flex-col gap-[18px]">
         {/* Name + Org row */}
-        <div className="grid grid-cols-2 gap-[18px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[18px]">
           <div className="flex flex-col gap-[8px]">
             <label className={labelClass}>Full Name</label>
             <input

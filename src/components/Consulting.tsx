@@ -17,7 +17,7 @@ export default function Consulting() {
   return (
     <section
       id="consulting"
-      className="bg-navy px-[80px] py-[130px] grid grid-cols-2 gap-[90px] items-start"
+      className="bg-navy px-5 py-[72px] md:px-[80px] md:py-[130px] grid grid-cols-1 md:grid-cols-2 gap-[90px] items-start"
     >
       {/* Left column */}
       <div>
@@ -25,7 +25,7 @@ export default function Consulting() {
         <span className="font-sans font-medium text-[0.68rem] tracking-[0.24em] uppercase text-gold-light mb-[20px] block">
           Consulting
         </span>
-        <h2 className="font-cormorant font-semibold text-[clamp(2.4rem,3.6vw,3.48rem)] text-white leading-[1.18] mb-[36px]">
+        <h2 className="font-cormorant font-semibold text-[clamp(1.7rem,4vw,3.48rem)] text-white leading-[1.18] mb-[36px]">
           Transform Underperforming Systems Into Living Achievement Engines.
         </h2>
         <p className="text-[1.2rem] leading-[1.85] text-[rgba(255,255,255,0.6)] mb-[44px] font-light">

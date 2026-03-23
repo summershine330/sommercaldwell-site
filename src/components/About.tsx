@@ -4,10 +4,10 @@ export default function About() {
   return (
     <section
       id="about"
-      className="bg-cream px-[80px] py-[130px] grid grid-cols-2 gap-[90px] items-start"
+      className="bg-cream px-5 py-[72px] md:px-[80px] md:py-[130px] grid grid-cols-1 md:grid-cols-2 gap-[90px] items-start"
     >
       {/* Photo column */}
-      <div className="relative pb-[28px] pr-0 pl-[28px]">
+      <div className="relative pb-[20px] pl-[20px] md:pb-[28px] md:pl-[28px] pr-0">
         {/* Gold offset border — anchored to outer div, sits behind and to the bottom-left */}
         <div className="absolute top-[28px] left-0 right-[28px] bottom-0 border-2 border-gold opacity-35 pointer-events-none z-0" />
         {/* Photo frame */}
@@ -27,7 +27,7 @@ export default function About() {
         <span className="font-sans font-medium text-[0.68rem] tracking-[0.24em] uppercase text-gold mb-[20px] block">
           About Sommer
         </span>
-        <h2 className="font-cormorant font-semibold text-[clamp(2rem,3vw,2.9rem)] text-navy leading-[1.18] mb-[36px]">
+        <h2 className="font-cormorant font-semibold text-[clamp(1.7rem,4vw,2.9rem)] text-navy leading-[1.18] mb-[36px]">
           The vision is already in the room. I just build the system around it.
         </h2>
         <blockquote className="border-l-[3px] border-gold pl-[26px] mb-[36px] font-cormorant italic text-[1.2rem] leading-[1.65] text-navy opacity-90">

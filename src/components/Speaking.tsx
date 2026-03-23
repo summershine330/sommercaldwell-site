@@ -26,20 +26,20 @@ const tags = [
 
 export default function Speaking() {
   return (
-    <section id="speaking" className="bg-ivory px-[80px] py-[130px]">
+    <section id="speaking" className="bg-ivory px-5 py-[72px] md:px-[80px] md:py-[130px]">
       {/* Header */}
-      <div className="mb-[64px]">
+      <div className="mb-[40px] md:mb-[64px]">
         <div className="w-[48px] h-[2px] bg-gold mb-[20px]" />
         <span className="font-sans font-medium text-[0.68rem] tracking-[0.24em] uppercase text-gold mb-[20px] block">
           Speaking
         </span>
-        <h2 className="font-cormorant font-semibold text-[clamp(2.4rem,3.6vw,3.48rem)] text-navy leading-[1.18]">
+        <h2 className="font-cormorant font-semibold text-[clamp(1.7rem,4vw,3.48rem)] text-navy leading-[1.18]">
           Talks That Move Rooms To Action.
         </h2>
       </div>
 
       {/* Cards */}
-      <div className="grid grid-cols-3 gap-[28px] mb-[56px]">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-[28px] mb-[56px]">
         {cards.map((card) => (
           <div
             key={card.title}
