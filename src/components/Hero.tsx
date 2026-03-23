@@ -18,7 +18,7 @@ export default function Hero() {
           <em className="italic text-gold">Empowerment</em> and the Funding That Makes It Possible.
         </h1>
 
-        <p className="text-[1rem] md:text-[1.2rem] leading-[1.75] text-muted mb-[48px] max-w-[480px] font-light">
+        <p className="text-[1.1rem] md:text-[1.25rem] leading-[1.75] text-muted mb-[48px] max-w-[480px] font-light">
           22+ years helping organizations step into their purpose and power —
           from the classroom to the boardroom.
         </p>

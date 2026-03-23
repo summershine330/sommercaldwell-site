@@ -28,7 +28,7 @@ export default function Consulting() {
         <h2 className="font-cormorant font-semibold text-[clamp(1.7rem,4vw,3.48rem)] text-white leading-[1.18] mb-[36px]">
           Transform Underperforming Systems Into Living Achievement Engines.
         </h2>
-        <p className="text-[1.2rem] leading-[1.85] text-[rgba(255,255,255,0.6)] mb-[44px] font-light">
+        <p className="text-[1.1rem] md:text-[1.25rem] leading-[1.85] text-[rgba(255,255,255,0.6)] mb-[44px] font-light">
           Executive-level strategy and implementation for schools, districts,
           and nonprofits ready to stop managing problems and start building
           solutions.
@@ -58,7 +58,7 @@ export default function Consulting() {
           {services.map((service) => (
             <li
               key={service}
-              className="text-[1.2rem] text-[rgba(255,255,255,0.72)] py-[22px] border-b border-[rgba(255,255,255,0.07)] flex items-center gap-[16px] font-light transition-colors duration-200 hover:text-white before:content-[''] before:w-[22px] before:h-[1px] before:bg-gold before:flex-shrink-0"
+              className="text-[1.1rem] md:text-[1.25rem] text-[rgba(255,255,255,0.72)] py-[22px] border-b border-[rgba(255,255,255,0.07)] flex items-center gap-[16px] font-light transition-colors duration-200 hover:text-white before:content-[''] before:w-[22px] before:h-[1px] before:bg-gold before:flex-shrink-0"
             >
               {service}
             </li>

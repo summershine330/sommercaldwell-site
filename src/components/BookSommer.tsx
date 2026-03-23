@@ -37,9 +37,9 @@ export default function BookSommer() {
   }
 
   const inputClass =
-    "bg-[rgba(255,255,255,0.055)] border border-[rgba(255,255,255,0.11)] text-white font-sans text-[0.9rem] font-light px-[18px] py-[15px] outline-none transition-all duration-200 focus:border-gold focus:bg-[rgba(255,255,255,0.08)] placeholder:text-[rgba(255,255,255,0.25)]";
+    "bg-[rgba(255,255,255,0.055)] border border-[rgba(255,255,255,0.11)] text-white font-sans text-[1.1rem] md:text-[1.25rem] font-light px-[18px] py-[15px] outline-none transition-all duration-200 focus:border-gold focus:bg-[rgba(255,255,255,0.08)] placeholder:text-[rgba(255,255,255,0.25)]";
   const labelClass =
-    "text-[0.65rem] font-medium tracking-[0.16em] uppercase text-[rgba(255,255,255,0.45)]";
+    "text-[1.1rem] md:text-[1.25rem] font-medium tracking-[0.16em] uppercase text-[rgba(255,255,255,0.45)]";
 
   return (
     <section
@@ -55,7 +55,7 @@ export default function BookSommer() {
         <h2 className="font-cormorant font-semibold text-[clamp(1.7rem,4vw,2.9rem)] text-white leading-[1.18] mb-[24px]">
           Bring the Voice Your Organization Has Been Waiting For.
         </h2>
-        <p className="text-[1.2rem] leading-[1.85] text-[rgba(255,255,255,0.55)] mb-[44px] font-light">
+        <p className="text-[1.1rem] md:text-[1.25rem] leading-[1.85] text-[rgba(255,255,255,0.55)] mb-[44px] font-light">
           Whether you need a keynote that shifts a culture, a workshop that
           builds capacity, or a consulting partner who stays until the work is
           done. This is where it begins.
@@ -159,12 +159,12 @@ export default function BookSommer() {
         </button>
 
         {status === "success" && (
-          <p className="text-[0.85rem] text-[rgba(255,255,255,0.6)] text-center font-light">
+          <p className="text-[1.1rem] md:text-[1.25rem] text-[rgba(255,255,255,0.6)] text-center font-light">
             Your inquiry was sent. Sommer will be in touch soon.
           </p>
         )}
         {status === "error" && (
-          <p className="text-[0.85rem] text-[rgba(212,100,100,0.8)] text-center font-light">
+          <p className="text-[1.1rem] md:text-[1.25rem] text-[rgba(212,100,100,0.8)] text-center font-light">
             Something went wrong. Please try again or email directly.
           </p>
         )}

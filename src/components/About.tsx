@@ -34,12 +34,12 @@ export default function About() {
           &ldquo;The funding exists. The talent is there. The will is strong.
           What&apos;s missing is alignment. That&apos;s my specialty.&rdquo;
         </blockquote>
-        <p className="text-[1.1rem] leading-[1.85] text-muted mb-[20px] font-light">
+        <p className="text-[1.1rem] md:text-[1.25rem] leading-[1.85] text-muted mb-[20px] font-light">
           Sommer Caldwell-Carruthers is an author, educator, and strategist who
           blends personal truth with professional insight. Her message is rooted
           in one belief: When mindset and purpose align, everything else flows.
         </p>
-        <p className="text-[1.1rem] leading-[1.85] text-muted mb-[20px] font-light">
+        <p className="text-[1.1rem] md:text-[1.25rem] leading-[1.85] text-muted mb-[20px] font-light">
           Sommer brings over two decades of experience in education. She serves
           as a strategist, grant architect, and systems builder. Her work sits
           at the rare intersection of operational rigor and human-centered
@@ -47,7 +47,7 @@ export default function About() {
           competitive funding, Sommer&apos;s impact is measurable, lasting, and
           built to scale.
         </p>
-        <p className="text-[1.1rem] leading-[1.85] text-muted mb-[20px] font-light">
+        <p className="text-[1.1rem] md:text-[1.25rem] leading-[1.85] text-muted mb-[20px] font-light">
           Sommer brings a dynamic and grounded presence to K-12 events,
           empowerment events, leadership, entrepreneurship, and technology
           spaces. She&apos;s known for her ability to hold real conversations

@@ -48,7 +48,7 @@ export default function Speaking() {
             <p className="font-cormorant text-[1.5rem] font-semibold text-navy mb-[18px] leading-[1.25]">
               {card.title}
             </p>
-            <p className="text-[1.1rem] leading-[1.75] text-muted font-light">
+            <p className="text-[1.1rem] md:text-[1.25rem] leading-[1.75] text-muted font-light">
               {card.text}
             </p>
           </div>
