@@ -5,12 +5,21 @@ const metrics = [
 ];
 
 const services = [
-  "MTSS Architecture & Implementation",
-  "Leadership Development",
-  "School Turnaround Strategy",
-  "Grant Writing & Program Funding",
-  "Program Design & Sustainability",
-  "AI & Technology Integration for Schools",
+  {
+    name: "MTSS Architect",
+    description:
+      "For schools and districts where students are not reaching proficiency, we diagnose your intervention system and rebuild it so it actually works.",
+  },
+  {
+    name: "Grant Writing & Program Funding",
+    description:
+      "Research, write, and manage grants that connect your federal and state dollars directly to student outcomes.",
+  },
+  {
+    name: "The Achievement Architecture",
+    description:
+      "Full-system transformation across data, MTSS, grants, programs, and leadership for organizations ready to rebuild from the foundation up.",
+  },
 ];
 
 export default function Consulting() {
@@ -57,10 +66,18 @@ export default function Consulting() {
         <ul className="list-none mb-[48px]">
           {services.map((service) => (
             <li
-              key={service}
-              className="text-[1.1rem] md:text-[1.25rem] text-[rgba(255,255,255,0.72)] py-[22px] border-b border-[rgba(255,255,255,0.07)] flex items-center gap-[16px] font-light transition-colors duration-200 hover:text-white before:content-[''] before:w-[22px] before:h-[1px] before:bg-gold before:flex-shrink-0"
+              key={service.name}
+              className="py-[22px] border-b border-[rgba(255,255,255,0.07)] transition-colors duration-200 hover:text-white"
             >
-              {service}
+              <div className="flex items-center gap-[16px] mb-[8px]">
+                <span className="w-[22px] h-[1px] bg-gold flex-shrink-0 inline-block" />
+                <span className="text-[1.1rem] md:text-[1.25rem] text-white font-medium">
+                  {service.name}
+                </span>
+              </div>
+              <p className="text-[0.95rem] md:text-[1.05rem] text-[rgba(255,255,255,0.55)] font-light leading-[1.7] pl-[38px]">
+                {service.description}
+              </p>
             </li>
           ))}
         </ul>
@@ -69,7 +86,7 @@ export default function Consulting() {
           href="#book"
           className="bg-gold text-white font-sans text-[0.75rem] font-medium tracking-[0.12em] uppercase px-[34px] py-[17px] no-underline inline-block transition-all duration-200 hover:bg-gold-light hover:-translate-y-0.5"
         >
-          Inquire About Consulting
+          Schedule a Discovery Call
         </a>
       </div>
     </section>
