@@ -13,6 +13,7 @@ export default function Nav() {
           { href: "/#about", label: "About" },
           { href: "/#speaking", label: "Speaking" },
           { href: "/#consulting", label: "Consulting" },
+          { href: "/build-it-using-ai", label: "Build With AI" },
           { href: "/#book", label: "Contact" },
         ].map(({ href, label }) => (
           <li key={href}>
