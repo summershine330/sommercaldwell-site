@@ -122,7 +122,7 @@ export default function BuildItUsingAILandingPage() {
                     </div>
                     <div className="mt-6 rounded-2xl bg-white p-4 text-neutral-950">
                       <div className="text-sm font-medium text-neutral-500">What you will leave with</div>
-                      <div className="mt-2 text-lg font-semibold">A simple AI powered tool they built themselves</div>
+                      <div className="mt-2 text-lg font-semibold">A simple AI powered tool you built yourself</div>
                     </div>
                   </div>
                 </div>
@@ -200,7 +200,7 @@ export default function BuildItUsingAILandingPage() {
                   </a>
                 </div>
                 <div className="mt-5 text-sm text-neutral-500">
-                  After checkout, you will have the option to add lifetime access to the class recording.
+                  At checkout, you will have the option to purchase the class recording.
                 </div>
               </div>
             </div>
