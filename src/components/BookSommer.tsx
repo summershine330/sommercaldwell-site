@@ -56,9 +56,9 @@ export default function BookSommer() {
           Bring the Voice Your Organization Has Been Waiting For.
         </h2>
         <p className="text-[1.1rem] md:text-[1.25rem] leading-[1.85] text-[rgba(255,255,255,0.55)] mb-[44px] font-light">
-          Whether you need a keynote that shifts a culture, a workshop that
-          builds capacity, or a consulting partner who stays until the work is
-          done. This is where it begins.
+          Whether you need a keynote that challenges thinking, a workshop that
+          creates momentum, or an experience your audience will carry long after
+          they leave the room. This is where it begins.
         </p>
 
         {/* Testimonial */}

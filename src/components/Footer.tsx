@@ -7,17 +7,17 @@ export default function Footer() {
       <div className="flex items-center gap-5">
         <a
           href="/privacy"
-          className="text-[0.65rem] md:text-[0.75rem] text-[rgba(255,255,255,0.3)] font-light tracking-[0.06em] uppercase hover:text-[rgba(255,255,255,0.6)] transition-colors duration-200 no-underline"
+          className="text-[0.65rem] md:text-[0.75rem] text-white font-light tracking-[0.06em] uppercase hover:text-[rgba(255,255,255,0.6)] transition-colors duration-200 no-underline"
         >
           Privacy Policy
         </a>
         <a
           href="/terms"
-          className="text-[0.65rem] md:text-[0.75rem] text-[rgba(255,255,255,0.3)] font-light tracking-[0.06em] uppercase hover:text-[rgba(255,255,255,0.6)] transition-colors duration-200 no-underline"
+          className="text-[0.65rem] md:text-[0.75rem] text-white font-light tracking-[0.06em] uppercase hover:text-[rgba(255,255,255,0.6)] transition-colors duration-200 no-underline"
         >
           Terms &amp; Conditions
         </a>
-        <span className="text-[0.65rem] md:text-[0.75rem] text-[rgba(255,255,255,0.3)] font-light">
+        <span className="text-[0.65rem] md:text-[0.75rem] text-white font-light">
           © 2026 sommercaldwellcarruthers.com
         </span>
       </div>
