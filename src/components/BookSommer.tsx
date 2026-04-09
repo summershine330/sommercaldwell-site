@@ -128,7 +128,7 @@ export default function BookSommer() {
             <option value="" disabled className="bg-deep-navy">
               Select engagement type
             </option>
-            {["Keynote", "Workshop", "Consulting", "Panel Appearance", "Other"].map((opt) => (
+            {["Keynote", "Workshop", "Panel Appearance", "Other"].map((opt) => (
               <option key={opt} value={opt} className="bg-deep-navy">
                 {opt}
               </option>

@@ -13,14 +13,13 @@ export default function Hero() {
         </p>
 
         <h1 className="font-cormorant font-semibold text-[clamp(1.8rem,6vw,3.6rem)] leading-[1.12] text-navy mb-[32px] tracking-[-0.01em]">
-          At the intersection of{" "}
-          <em className="italic text-gold">Education, Technology,</em>{" "}
-          <em className="italic text-gold">Empowerment</em> and the Funding That Makes It Possible.
+          When <em className="italic text-gold">Mindset</em> Meets{" "}
+          <em className="italic text-gold">Strategy,</em> Everything in the Room Shifts.
         </h1>
 
-        <p className="text-[1.1rem] md:text-[1.25rem] leading-[1.75] text-muted mb-[48px] max-w-[480px] font-light">
-          22+ years helping organizations step into their purpose and power —
-          from the classroom to the boardroom.
+        <p className="font-cormorant text-[clamp(1.3rem,3vw,2rem)] leading-[1.45] text-muted mb-[48px] w-full font-normal text-center">
+          Bringing Strategy, Innovation, and Transformation to Every Stage,
+          Summit, and Leadership Room.
         </p>
 
         <div className="flex gap-[16px] flex-wrap">
@@ -29,12 +28,6 @@ export default function Hero() {
             className="bg-navy text-white font-sans text-[0.75rem] font-medium tracking-[0.12em] uppercase px-[34px] py-[17px] border-2 border-navy no-underline transition-all duration-200 hover:bg-mid-navy hover:border-mid-navy hover:-translate-y-0.5 inline-block"
           >
             Book Sommer to Speak
-          </a>
-          <a
-            href="#consulting"
-            className="bg-transparent text-navy font-sans text-[0.75rem] font-medium tracking-[0.12em] uppercase px-[34px] py-[17px] border-2 border-navy no-underline transition-all duration-200 hover:bg-navy hover:text-white hover:-translate-y-0.5 inline-block"
-          >
-            Work With Me
           </a>
         </div>
       </div>
